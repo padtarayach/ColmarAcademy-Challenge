@@ -10,7 +10,6 @@
 body{
     height: 100vh;
     width: 100wh;
-    border: 1px solid black;
 }
 .page-1-container{
     display: flex;
@@ -108,7 +107,6 @@ h2{
 }
 
 .page-2-right-container{
-    /* border: 1px solid violet; */
     display: flex;
     flex-direction: column;
     color: #4a4a4a;
@@ -139,7 +137,6 @@ h2{
 }
 
 .orientation-date-box, .our-campus-box, .our-guest-lecture-box{
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,29 +168,25 @@ a { font-size: 10px;
     font-size: 25px;
     color: #4a4a4a;
     padding: 32px 0;
-    /* border: 2px solid black; */
 }
 
 .page-3-info-container{
+    color: #4a4a4a;
     display: flex;
     flex-direction: column;
     margin: 0 72px;
-    /* border: 2px solid black; */
 }
 
 .page-3-info-container-line-1, .page-3-info-container-line-2{
     display: flex;
     justify-content: space-between;
-}
-
-.page-3-info-container-line-1{
     margin-bottom: 32px;
 }
+
 
 .software-engineering-box, .computer-art-box, .design-box, .data-box, .business-box, .marketing-box{
     width: 30%;
     background-color: white;
-    /* border: 2px solid red; */
 }
 
 .page-3-photo{
@@ -206,11 +199,9 @@ a { font-size: 10px;
     font-size: 15px;
     padding-top: 16px;
     padding-left: 16px;
-    /* border: 2px solid red; */
 }
 
 .course{
-    color: #d8d8d8;
     font-size: 12px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -218,7 +209,6 @@ a { font-size: 10px;
 }
 
 .page-3-course-info{
-    color: #d8d8d8;
     font-size: 10px;
     padding-left: 16px;
     padding-bottom: 24px;
@@ -227,4 +217,89 @@ a { font-size: 10px;
 
 /* page-4 */
 
+.page-4-main{
+    display: flex;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #d8d8d8;
 
+}
+
+.header-page-4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #4a4a4a;
+    padding: 32px 0;
+}
+
+.page-4-left-container{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    width: 60%;
+}
+
+video{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.reimage-urban-head{
+    font-weight: bold;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+}
+
+.reimage-urban-info{
+    font-size: 10px;
+    color: #4a4a4a;
+}
+
+.page-4-right-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.fisma-box, .nowandthen-box{
+    display: flex;
+    align-items: center;
+}
+
+.fisma-box{
+    background-color: #d8d8d8;
+}
+
+.page-4-photo{
+    width: 35%;
+    padding: 16px 16px;
+}
+
+.page-4-info-head{
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.page-4-info-detail-1, .page-4-info-detail-2{
+    color: #4a4a4a;
+    font-size: 10px;
+}
+
+.page-4-info-detail-1{
+    width: 70%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: #4a4a4a;
+    font-size: 10px;
+    margin-left: 24px;
+    height: 40px;
+}
+
+.footer-menu{
+    list-style: none;
+    display: flex;
+}
