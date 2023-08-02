@@ -58,9 +58,13 @@ li:nth-child(3){
 .page-1-right-info{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 30%;
     color: #4a4a4a;
-    border: 1px solid red;
+}
+
+h1{
+    margin-bottom: 1rem;
 }
 
 button{
@@ -68,4 +72,91 @@ button{
     background-color: #4a4a4a;
     border: none;
     padding: 8px 0;
+    margin-top: 1rem;
 }
+
+.page-2{
+    background-color: #f3f5f5;
+    display:flex;
+}
+
+.page-2-left-container{
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    color: #4a4a4a;
+    width: 60%;
+    border-right: 1px solid #d8d8d8;
+}
+
+.information-main{
+    width: 100%;
+}
+
+h2{
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.information-main-info{
+    font-size: 12px
+}
+
+.author-1{
+    padding-top: 1rem;
+    font-size: 10px;
+}
+
+.page-2-right-container{
+    /* border: 1px solid violet; */
+    display: flex;
+    flex-direction: column;
+    color: #4a4a4a;
+    width: 40%;
+    padding-top: 32px;
+}
+
+.orientation-date, .our-campus, .our-guest-lecture{
+    display: flex;
+    padding-left: 16px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid #d8d8d8;
+    
+}
+
+.orientation-date{
+    border-top: none;
+}
+
+.our-guest-lecture{
+    background-color: #d8d8d8 ;
+
+}
+
+.orientation-date-photo, .our-campus-photo, .our-guest-lecture-photo{
+    width: 35%;
+}
+
+.orientation-date-box, .our-campus-box, .our-guest-lecture-box{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.orientation-date-h1, .our-campus-h1, .our-guest-lecture-h1{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.orientation-date-info, .our-campus-info, .our-guest-lecture-info{
+    font-size: 10px;
+}
+
+a { font-size: 10px;
+}
+
+
+
