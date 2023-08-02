@@ -12,7 +12,12 @@ body{
     width: 100wh;
     border: 1px solid black;
 }
-
+.page-1-container{
+    display: flex;
+    align-items: center;
+    background-color: #d8d8d8;
+    padding: 32px 24px;
+}
 nav{
     height: 64px;
     display: flex;
@@ -43,4 +48,24 @@ li:nth-child(2){
 
 li:nth-child(3){
     margin-right: 16px;
+}
+
+.banner{
+    width: 60%;
+    padding-right: 24px;
+}
+
+.page-1-right-info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: #4a4a4a;
+    border: 1px solid red;
+}
+
+button{
+    color: white;
+    background-color: #4a4a4a;
+    border: none;
+    padding: 8px 0;
 }
